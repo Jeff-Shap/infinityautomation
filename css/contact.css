@@ -1,0 +1,104 @@
+body,
+html {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    color: white;
+}
+
+.topnav {
+    font-size: 14px;
+}
+
+.navbar {
+    background-image: none;
+    background-color: black;
+}
+
+
+
+#topnavlogo {
+    width: 120px;
+    height: auto;
+    position: relative;
+    top: 4px;
+}
+
+#contactbanner {
+  position: relative;
+  top: 120px;
+}
+
+
+#contactrow {
+  position: relative;
+  top: 120px;
+  left: 50px;
+}
+
+#map {
+  position: relative;
+  top: 80px;
+}
+
+#contactinfo {
+  position: relative;
+  top: 140px;
+}
+
+#submitbutton {
+  position: relative;
+  left: 122px;
+  color: black;
+}
+
+#messageheader {
+  position: relative;
+  left: 30px;
+}
+
+.contactlabelrow {
+  padding-top: 20px;
+}
+
+.contactlabel {
+  text-align: right;
+}
+
+
+@media (max-width: 991px) {
+  .contactlabel {
+    text-align: left;
+  }
+  #contactform {
+    position: relative;
+    top: 150px;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  
+  }
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

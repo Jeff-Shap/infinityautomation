@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/bootstrap.css">
+<link href="css/contact.css" rel="stylesheet">
+<title>&infin; Automation Contact Us</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation">
+    <div class="container topnav">
+    <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="   collapse" data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a href="./index.html">
+          <img src="../images/logo_only_black.jpg" id="topnavlogo">
+        </a>
+      </div>
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="systems.html">Our Systems</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+    <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+  </nav>
+
+
+  <div class="container" id="contactbanner">
+    <div class="row">
+      <div class="col-md-4" id="contactbannertext">
+        <h1>Contact Us</h1>
+      </div>
+    </div>
+    <hr class="section-heading-spacer">
+  </div>
+
+
+    <div class="row" id="contactrow">
+      <div class="col-md-3 col-md-offset-1" id="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3544.3550007959934!2d-82.44857388494604!3d27.333367882948334!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88c3476f7e58f803%3A0xd9016ed42993f88c!2s369+Interstate+Blvd%2C+Sarasota%2C+FL+34240!5e0!3m2!1sen!2sus!4v1463414162265" width="300" height="300" frameborder="0" style="border:2" allowfullscreen></iframe>
+      </div>
+
+      <div class="col-md-3" id="contactinfo"><br/>
+        <ul id="contact_list" style="list-style:none;">
+          <li><br />P: (941) 355-1220</li>
+          <li>E: info@infinityautomation.solutions</li>
+          <li>A: 369 Interstate Blvd, Sarasota, FL 34240</li>
+        </ul>
+      </div>
+
+      <div class="col-md-3" id="contactform"><br/>
+        <div class="row" id="messageheader">
+          <h4 id="contact">Leave us a message</h4>
+        </div>
+        <form name="contactform" method="post" action="send_form_email.php">
+        <div class="row contactlabelrow">
+          <div class="col-md-4 contactlabel">
+            <label for="first_name">First Name:</label>
+          </div>
+          <div class="col-md-6">
+            <input  type="text" name="first_name" maxlength="50" size="30">
+          </div>
+        </div>
+        <div class="row contactlabelrow">
+          <div class="col-md-4 contactlabel">
+            <label for="last_name">Last Name:</label>
+          </div>
+          <div class="col-md-6">
+            <input  type="text" name="last_name" maxlength="50" size="30">
+          </div>
+        </div>
+        <div class="row contactlabelrow">
+          <div class="col-md-4 contactlabel">
+            <label for="email">Email:</label>
+          </div>
+          <div class="col-md-6">
+            <input  type="text" name="email" maxlength="80" size="30">
+          </div>
+        </div>
+        <div class="row contactlabelrow">
+          <div class="col-md-4 contactlabel">
+            <label for="telephone">Phone:</label>
+          </div>
+          <div class="col-md-6">
+            <input  type="text" name="telephone" maxlength="30" size="30">
+          </div>
+        </div>
+        <div class="row contactlabelrow">
+          <div class="col-md-4 contactlabel">
+            <label for="comments">Comments:</label>
+          </div>
+          <div class="col-md-6">
+            <textarea  name="comments" maxlength="1000" cols="28" rows="6"></textarea>
+          </div>
+        </div>
+        <div class="row contactlabelrow">
+          <div class="col-md-4" id="submitbutton">  
+            <input type="submit" value="Submit">
+          </div>
+        </div>
+        </form>
+      </div>
+    
+    </div>
+  </div>
+
+  <script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

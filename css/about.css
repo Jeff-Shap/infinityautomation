@@ -1,0 +1,80 @@
+body, html {
+  width: 100%;
+  background-color: black;
+}
+
+
+
+.topnav {
+    font-size: 14px;
+}
+
+.navbar {
+    background-color: rgba(0,0,0,1);
+}
+#topnavlogo {
+    width: 120px;
+    height: auto;
+    position: relative;
+    top: 4px;
+}
+
+
+
+#bottombar {
+    width: 400px;
+    position: relative;
+    top: 240px;
+}
+
+#topbar {
+  position: relative;
+  top: 100px;
+  text-align: center;
+  color: white;
+}
+
+#nameblock {
+  position: relative;
+  top: 100px;
+  color: white;
+}
+
+#whoweare {
+  text-align: center;
+  font-size: 1.2em;
+  margin-top: 5%;
+}
+
+.name {
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.namecolumn {
+  margin-right: 6%;
+}
+
+.bio {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: 10%;
+}
+
+.biopic {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media(max-width:991px) {
+  .bio {
+    margin-top: 3%;
+    margin-bottom: 5%;
+  };
+}
+
+#allrights {
+  text-align: center;
+}
+
