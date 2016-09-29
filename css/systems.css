@@ -1,5 +1,18 @@
 /*systems.css*/
 
+.brandlogo {
+  width: 70px;
+  height: auto;
+  margin-right: 20px;
+}
+
+#brandrow {
+    position: relative;
+    left: 3%;
+    top: 420px;
+}
+
+
 body,
 html {
     width: 100%;

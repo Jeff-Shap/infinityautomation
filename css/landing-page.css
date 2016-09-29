@@ -5,7 +5,16 @@
  */
 
 
+.brandlogo {
+  width: 70px;
+  height: auto;
+  margin-right: 20px;
+}
 
+#brandrow {
+    position: relative;
+    left: 3%;
+}
 
 
 body,
@@ -323,3 +332,5 @@ p.copyright {
         left: -2%;
     }
 } 
+
+
