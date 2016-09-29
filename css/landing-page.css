@@ -11,8 +11,8 @@
 body,
 html {
     width: 100%;
-    height: 200px;
     background-color: black;
+    overflow-x: hidden;
 }
 
 body,
@@ -241,15 +241,15 @@ p.copyright {
     top: -220px;
 }
 #topnavlogo {
-    width: 120px;
-    height: auto;
-    position: relative;
-    top: 4px;
+    width: 120px !important;
+    height: auto !important;
+    position: relative !important;
+    top: 4px !important;
 }
 
 #mainlogo {
-    width: 300px;
-    height: auto;
+    width: 300px !important;
+    height: auto !important;
 }
 
 #bottombar {
@@ -290,16 +290,36 @@ p.copyright {
     }
     #subtitlerow {
         position: relative;
-        top: -100px;
+        top: -50px;
     } 
     #linebreak {
     top: -120px;
-    }  
+    }
 
+}
+
+@media (min-width: 550px) and (max-width: 768px) {
+    #mainlogo {
+        position: relative;
+        top: -50px;
+    }
 }
 
 @media (max-width: 550px) {
     #subtitlerow {
         width: 300px;
+        top: -100px;
+    }
+    #mainlogo {
+        position: relative;
+        top: -50px;
+    }
+    #bottomlinks {
+        position: relative;
+        left: -2%;
+    }
+    .copyright {
+        position: relative;
+        left: -2%;
     }
 } 
